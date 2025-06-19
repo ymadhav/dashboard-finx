@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Financial Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Background Video -->
+  <video autoplay muted loop playsinline id="bg-video">
+    <source src="background.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+  <div class="video-overlay"></div>
+
+  <!-- Main Content -->
+  <main class="content">
+    <h1 class="headline">
+      <span data-type="reports"><strong>Reports</strong>,</span>
+      <span data-type="forecasts"><strong>Forecasts</strong>,</span>
+      <span data-type="dashboards"><strong>Dashboards</strong></span>
+      <span data-type="consolidations"> & <strong>Consolidations</strong></span>
+    </h1>
+    <p class="subtext">✨ Now with AI insights</p>
+    <a href="#" class="cta-btn">Start Free Trial</a>
+  </main>
+
+  <!-- Floating Images -->
+  <div class="floating-images">
+    <div class="image-group" data-type="reports">
+      <img src="reports1.png" />
+      <img src="reports2.jpg" />
+    </div>
+    <div class="image-group" data-type="forecasts">
+      <img src="forecasts1.jpg" />
+      <img src="forecasts2.png" />
+    </div>
+    <div class="image-group" data-type="dashboards">
+      <img src="dashboard.jpg" />
+    </div>
+    <div class="image-group" data-type="consolidations">
+      <img src="38-21.jpeg" />
+      <img src="assets/consolidations2.png" />
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
